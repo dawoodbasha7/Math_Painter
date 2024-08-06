@@ -10,3 +10,5 @@ data[0:1, 1:3]=[0, 255, 0]  # change the colour of the columns
 
 img=Image.fromarray(data, 'RGB')
 img.save('canvas.png')
+
+
